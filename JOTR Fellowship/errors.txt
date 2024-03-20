@@ -1,0 +1,92 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 400: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    '''
+                play music "<from 0 to 92>audio/starting.mp3" fadein 1
+    
+                
+                scene Bilbohome1
+                with dissolve
+    
+                show Frodo3 at left
+                
+                show Gandalf2 at right with easeinright
+    
+                show Frodo3 at jumper
+                Frodo "You're late" 
+    
+                show Gandalf2 at jumper
+       ^
+                Gandalf "A wizard is never late, Frodo Baggins, nor is he early. He arrives precisely when he means to."
+    
+                show Frodo3 at jumper
+                show Gandalf2 at jumper
+                "Frodo and Gandalf burst out laughing"
+                
+                show Frodo3 at jumper
+                Frodo "It's wonderful to see you, Gandalf!"
+    
+                show Gandalf2 at jumper
+                Gandalf "You didn't think I'd miss your Uncle Bilbo's Birthday?"
+    
+                show Frodo3 at jumper
+                Frodo "What news of the outside world? Tell me everything!"
+    
+                show Gandalf2 at jumper
+                Gandalf "What, everything? Far too eager and curious for a Hobbit. Most unnatural..."
+    
+                show Gandalf2 at jumper
+                Gandalf "Well, what can I tell you? Life in the wide world goes on much as if it has past age. Full of its own comings and goings, scarcely even aware of the existence of Hobbits... ...for which I am very thankful."
+    
+                show Gandalf2 at jumper
+                Gandalf "Ah, the long expected party. So, how is the old rascal? I hear it's going to be a party of special magnificence."
+    
+                show Frodo3 at jumper
+                Frodo "You know Bilbo... he's got he whole place in an uproar."
+    
+                show Gandalf2 at jumper
+                Gandalf "Oh, well... that should please him."
+    
+                show Frodo3 at jumper
+                Frodo "Half the Shire's been invited."
+    
+                show Gandalf2 at jumper
+                Gandalf "Good gracious, me."
+    
+                show Frodo3 at jumper
+                Frodo "He's up to something."
+    
+                show Gandalf2 at jumper
+                Gandalf "Oh, really?"
+    
+                show Frodo3 at jumper
+                Frodo "Alright then...keep your secrets. Before you came along we Baggins were very well thought of."
+    
+                show Gandalf2 at jumper
+                Gandalf "Indeed?"
+    
+                show Frodo3 at jumper
+                Frodo "Never had any adventures or did anything unexpected."
+    
+                show Gandalf2 at jumper
+                Gandalf "If you're referring to the incident with the dragon... I was barely involved... all I did was give your uncle a little nudge out the door."
+    
+                show Frodo3 at jumper
+                Frodo "Whatever you did... you've been officially labelled as a Disturber of the Peace."
+    
+                show Gandalf2 at jumper
+                Gandalf "Oh really?"
+                
+                show Gandalf2 at jumper
+                Gandalf "Frodo... I'm glad you're back."
+    
+                show Gandalf2 at jumper
+                Gandalf "So am I, dear boy...so am I."
+                stop music fadeout 1
+                '''
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Sep 25 23:00:58 2023
